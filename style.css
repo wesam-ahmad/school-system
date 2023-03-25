@@ -1,0 +1,43 @@
+
+body{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+}
+
+/* .btn-secondary {
+    background-color: #6d42b8;
+    border-color: #6d42b8;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.282);
+} */
+.inputForm{
+    border-top:15px ;
+    border-bottom:15px ;
+
+}
+.btn-primary {
+    --bs-btn-bg: rgb(192 227 221);
+    --bs-btn-border-color: rgb(192 227 221);
+    --bs-btn-hover-bg: rgb(34 159 51);
+    --bs-btn-hover-border-color: rgb(95 152 118);
+}
+
+.coloricon {
+    color: black;
+}
+.table-striped>tbody>tr:nth-of-type(odd)>*{
+    --bs-table-accent-bg:#d5e4d34f;
+}
+.table-striped>tbody>tr>*{
+    height: 50px;
+}
+.table-striped{
+    border:solid white;
+    border-radius: 7px;
+    border-collapse: separate;
+}
