@@ -34,6 +34,7 @@ function createTable(name, Datebrith,phone, grade, gender){
             row.appendChild(c4);
             row.appendChild(c5);
             table.appendChild(row);
+            form.reset ();
            
 
                        
